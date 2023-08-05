@@ -1,0 +1,533 @@
+.frameChild,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightsteelblue);
+  width: 100%;
+  height: 5453px;
+  animation: slideFromLeft 1s ease-in-out forwards;
+}
+.groupChild {
+  top: 3px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-midnightblue);
+  width: 200px;
+  height: 60px;
+}
+.getStarted {
+  position: absolute;
+  top: 0;
+  left: 38px;
+  letter-spacing: 1px;
+  line-height: 67px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 24px;
+  left: 1210px;
+  width: 200px;
+  height: 67px;
+  text-align: center;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 1286px;
+  height: 747px;
+  object-fit: cover;
+}
+.improveAcademics {
+  position: absolute;
+  top: 114px;
+  left: 118px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 1.8px;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 361px;
+  height: 259px;
+}
+.evenTheBrightest {
+  margin: 0;
+}
+.evenTheBrightestContainer {
+  position: absolute;
+  top: 328px;
+  left: 118px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 411px;
+  height: 172px;
+}
+.groupInner {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: #0441bf;
+  width: 223px;
+  height: 60px;
+}
+.download {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  letter-spacing: 1px;
+  line-height: 67px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114.85px;
+}
+.groupDiv {
+  position: absolute;
+  top: 524px;
+  left: 118px;
+  width: 223px;
+  height: 67px;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+.materialSymbolsdownloadIcon {
+  position: absolute;
+  top: 543px;
+  left: 293px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 370px;
+  left: 115px;
+  width: 1286px;
+  height: 747px;
+}
+.learnBetterFocus,
+.unleashYourFull {
+  position: absolute;
+  text-transform: capitalize;
+  text-align: center;
+}
+.unleashYourFull {
+  top: 267px;
+  left: calc(50% - 192px);
+  letter-spacing: 0.04em;
+  color: var(--color-midnightblue);
+}
+.learnBetterFocus {
+  top: 186px;
+  left: calc(50% - 473px);
+  font-size: 48px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: #062a60;
+}
+.createAPersonalized,
+.whetherYoureFeeling {
+  position: absolute;
+  text-transform: capitalize;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  align-items: center;
+}
+.createAPersonalized {
+  top: 1624px;
+  left: 681px;
+  font-size: var(--font-size-13xl);
+  width: 442px;
+  height: 117px;
+}
+.whetherYoureFeeling {
+  top: 2607px;
+  left: calc(50% - 359px);
+  font-size: var(--font-size-17xl);
+  text-align: center;
+  justify-content: center;
+  width: 718px;
+  height: 171px;
+}
+.reachYourLearning,
+.skitii {
+  position: absolute;
+  letter-spacing: 1.8px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.reachYourLearning {
+  top: 1417px;
+  left: 681px;
+  font-size: var(--font-size-45xl);
+  line-height: 80px;
+  color: #005dab;
+  display: flex;
+  align-items: center;
+  width: 495px;
+}
+.skitii {
+  top: 17px;
+  left: 79px;
+  line-height: 67px;
+}
+.svg2023031622244600001Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.skitiiParent {
+  position: absolute;
+  top: 7px;
+  left: 42px;
+  width: 175px;
+  height: 100px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue);
+}
+.frameItem {
+  position: absolute;
+  top: 3204px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: #5c07ab;
+  width: 100%;
+  height: 1000px;
+}
+.hostsLiveQuizzes,
+.learnMore {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.hostsLiveQuizzes {
+  top: 240px;
+  display: flex;
+  align-items: center;
+  width: 378px;
+  height: 121px;
+}
+.learnMore {
+  top: 383px;
+}
+.span {
+  color: var(--color-white);
+}
+.quiz {
+  color: var(--color-lightsteelblue);
+}
+.liveQuizTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.liveQuiz {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 1.8px;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 143px;
+  height: 259px;
+  color: #d1b9ff;
+}
+.hostsLiveQuizzesThatYouCaParent,
+.rectangleDiv {
+  position: absolute;
+  top: 3436px;
+  left: 206px;
+  width: 378px;
+  height: 407px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl) 0 0 var(--br-11xl);
+  background-color: var(--color-midnightblue);
+  width: 448px;
+  height: 748px;
+}
+.theStudyPattern {
+  top: 374px;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  width: 336px;
+  height: 121px;
+}
+.learnMore1,
+.studyPatternAnalysis,
+.theStudyPattern {
+  position: absolute;
+  left: 56px;
+  text-transform: capitalize;
+}
+.studyPatternAnalysis {
+  top: 106px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 1.8px;
+  line-height: 80px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 307px;
+}
+.learnMore1 {
+  top: 523px;
+  letter-spacing: 0.04em;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 4431px;
+  left: 115px;
+  width: 1286px;
+  height: 748px;
+}
+.bitmapIcon {
+  height: 2.75%;
+  width: 10.42%;
+  top: 42.22%;
+  right: 59.44%;
+  bottom: 55.03%;
+  left: 30.14%;
+  object-fit: cover;
+  animation: rotate 4s linear infinite;
+}
+.bitmapIcon,
+.bitmapIcon1,
+.bitmapIcon2 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bitmapIcon1 {
+  height: 2.75%;
+  width: 10.42%;
+  top: 43.59%;
+  right: 28.75%;
+  bottom: 53.66%;
+  left: 60.83%;
+  object-fit: cover;
+  animation: rotate 4s linear infinite;
+}
+.bitmapIcon2 {
+  top: 51.84%;
+  right: 63.96%;
+  bottom: 45.41%;
+  left: 25.63%;
+  animation: rotate 4s linear infinite;
+}
+.bitmapIcon2,
+.bitmapIcon3,
+.bitmapIcon4 {
+  height: 2.75%;
+  width: 10.42%;
+  object-fit: cover;
+}
+.bitmapIcon3 {
+  position: absolute;
+  top: 51.84%;
+  right: 23.54%;
+  bottom: 45.41%;
+  left: 66.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  animation: rotate 4s linear infinite;
+}
+.bitmapIcon4 {
+  top: 47.92%;
+  right: 6.74%;
+  bottom: 49.33%;
+  left: 82.85%;
+  animation: rotate 4s linear infinite;
+}
+.bitmapIcon4,
+.bitmapIcon5,
+.frameInner {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bitmapIcon5 {
+  height: 2.75%;
+  width: 10.42%;
+  top: 46.34%;
+  right: 82.85%;
+  bottom: 50.91%;
+  left: 6.74%;
+  object-fit: cover;
+  animation: rotate 4s linear infinite;
+}
+.frameInner {
+  height: 1.28%;
+  width: 26.19%;
+  top: 97.41%;
+  right: 36.94%;
+  bottom: 1.3%;
+  left: 36.88%;
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: var(--color-lightsteelblue);
+  border: 5px solid var(--color-royalblue);
+  box-sizing: border-box;
+  width: 267px;
+  height: 95px;
+}
+.english {
+  position: absolute;
+  top: 11px;
+  left: 35px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 135px;
+  height: 74px;
+}
+.iconArrowIosDownward {
+  position: absolute;
+  height: 52.63%;
+  width: 18.73%;
+  top: 25.26%;
+  right: 8.61%;
+  bottom: 22.11%;
+  left: 72.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 5305px;
+  left: 1124px;
+  width: 267px;
+  height: 95px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-royalblue);
+}
+.scheduleScreen1 {
+  object-fit: cover;
+}
+.component1Wrapper,
+.component2,
+.component2Wrapper,
+.scheduleScreen1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 844px;
+}
+.component1Wrapper,
+.component2Wrapper {
+  top: 1241px;
+  left: 175px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.component1Wrapper {
+  top: 3284px;
+  left: 854px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5453px;
+
+}
+.akarIconstrophy,
+.iongameControllerOutlineIcon {
+  position: absolute;
+  top: 3299px;
+  left: 696px;
+  width: 136.6px;
+  height: 136.6px;
+  overflow: hidden;
+}
+.akarIconstrophy {
+  top: 4057px;
+  left: 1278px;
+  width: 100px;
+  height: 100px;
+}
+.skittiWebsite {
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  width: 100%;
+  height: 1008px;
+
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+  animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
