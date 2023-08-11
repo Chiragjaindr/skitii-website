@@ -23,6 +23,8 @@
   line-height: 67px;
   text-transform: capitalize;
   font-weight: 500;
+  transform: translateY(0px); /* Initial position off-screen */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition properties */
 }
 .rectangleGroup {
   position: absolute;
@@ -31,7 +33,10 @@
   width: 200px;
   height: 67px;
   text-align: center;
+  transform: translateY(0px); /* Initial position off-screen */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition properties */
 }
+
 .groupItem {
   position: absolute;
   top: 0;
@@ -40,6 +45,24 @@
   width: 1286px;
   height: 747px;
   object-fit: cover;
+}
+@media (max-width: 768px) {
+  .groupChild {
+    width: 100%; /* Expand to full width on smaller screens */
+    height: auto; /* Allow content to dictate height */
+    border-radius: 0; /* No border-radius for small screens */
+  }
+
+  .getStarted {
+    position: static; /* Adjust positioning for better flow */
+    margin-top: 20px; /* Add some spacing between elements */
+    line-height: normal; /* Reset line-height */
+  }
+
+  .rectangleGroup {
+    position: static; /* Adjust positioning for better flow */
+    margin-top: 20px; /* Add some spacing between elements */
+  }
 }
 .improveAcademics {
   position: absolute;
@@ -77,6 +100,7 @@
   background-color: #0441bf;
   width: 223px;
   height: 60px;
+  
 }
 .download {
   position: absolute;
@@ -160,6 +184,7 @@
   width: 718px;
   height: 171px;
 }
+
 .reachYourLearning,
 .skitii {
   position: absolute;
@@ -209,6 +234,7 @@
   width: 100%;
   height: 1000px;
 }
+
 .hostsLiveQuizzes,
 .learnMore {
   position: absolute;
@@ -251,6 +277,7 @@
   height: 259px;
   color: #d1b9ff;
 }
+
 .hostsLiveQuizzesThatYouCaParent,
 .rectangleDiv {
   position: absolute;
@@ -292,6 +319,7 @@
   align-items: center;
   width: 307px;
 }
+
 .learnMore1 {
   top: 523px;
   letter-spacing: 0.04em;
@@ -381,6 +409,7 @@
   object-fit: cover;
   animation: rotate 4s linear infinite;
 }
+
 .frameInner {
   height: 1.28%;
   width: 26.19%;
@@ -435,6 +464,7 @@
 .scheduleScreen1 {
   object-fit: cover;
 }
+
 .component1Wrapper,
 .component2,
 .component2Wrapper,
@@ -480,6 +510,7 @@
   width: 100px;
   height: 100px;
 }
+
 .skittiWebsite {
   position: relative;
   background-color: var(--color-lightsteelblue);
@@ -530,4 +561,163 @@
   100% {
     opacity: 1;
   }
+}
+@media (max-width: 480px) {
+  .groupChild {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  /* ... (Adjust other styles for better flow) ... */
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 480px) {
+  
+  .skitiiParent {
+  
+    position: absolute;
+    top: 7px;
+    left: -10px;
+    height: 100px;
+    width: 175px;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+  }
+
+  .skitiiParent .skitiiParent-inner {
+    position: absolute;
+    top: 7px;
+    width: 175px;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-midnightblue);
+  }
+}
+.SkittiWebsite_skitiiParent__miCaj
+{
+    position: absolute;
+    top: 7px;
+    left: -10px;
+    height: 100px;
+    width: 175px;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+}
+@media only screen and (max-width: 480px) {
+  .SkittiWebsite_learnBetterFocus__v2ZRB {
+    font-size: 36px; /* Decrease font size for smaller screens */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center using transform */
+    top: 120px; /* Adjust top position */
+  }
+}
+
+/* Responsive styles for even smaller screens */
+@media only screen and (max-width: 480px) {
+
+  .learnBetterFocus{
+    top: 186px;
+    left: calc(50% - 180px);
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: #062a60;
+  }
+.unleashYourFull
+{
+  top: 217px;
+  left: calc(50% - 155px);
+  letter-spacing: 0.04em;
+  color: var(--color-midnightblue);
+  font-size: 1rem;
+}
+.groupItem
+{
+  position: absolute;
+  top: -5rem;
+  left: -5.5rem;
+  width: 22rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.improveAcademics
+{
+  position: absolute;
+  top: -8rem;
+  left: -3rem;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  line-height: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 0rem;
+}
+.liveQuizTxtContainer
+/* {
+  position: absolute;
+  top: -19rem;
+  left: -11rem;
+  font-size: 11px;
+  width: 205px;
+ 
+} */
+
+.evenTheBrightestContainer
+{
+  position: absolute;
+  top: -1rem;
+  left: -5rem;
+  font-size: 11px;
+  width: 205px;
+}
+.groupInner
+{
+  position: absolute;
+  top: -25rem;
+  left: -10rem;
+  border-radius: var(--br-21xl);
+  background-color: #0441bf;
+  width: 4rem;
+  height: 1rem;
+}
+.download
+{
+  position: absolute;
+  top: -424px;
+  left: -192px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  line-height: 67px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114.85px;
+}
+.component1Wrapper,
+.component2Wrapper
+{
+  top: 37rem;
+  left: 0rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+  /* .skittiWebsite {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 1008px;
+  
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-rubik);
+    animation: fadeIn 1s ease-in-out forwards;
+  } */
 }
