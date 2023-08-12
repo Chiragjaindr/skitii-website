@@ -656,22 +656,17 @@
   width: 0rem;
 }
 .liveQuizTxtContainer
-/* {
-  position: absolute;
-  top: -19rem;
-  left: -11rem;
+{
   font-size: 11px;
   width: 205px;
  
-} */
+}
 
 .evenTheBrightestContainer
 {
   position: absolute;
   top: -1rem;
-  left: -5rem;
-  font-size: 11px;
-  width: 205px;
+  left: -4rem;
 }
 .groupInner
 {
@@ -698,16 +693,51 @@
   justify-content: center;
   width: 114.85px;
 }
-.component1Wrapper,
 .component2Wrapper
 {
-  top: 37rem;
+  top: 21rem;
+  left: -6rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  scale: 0.4;
+}
+.component1Wrapper
+{
+  top: 50rem;
   left: 0rem;
   border-radius: var(--br-xl);
   background-color: var(--color-white);
   overflow: hidden;
 }
-
+.rectangleContainer
+{
+  position: absolute;
+  top: 22rem;
+  left: 6.5rem;
+  width: 18rem;
+  height: 7rem;
+  object-fit: cover;
+}
+.component1Wrapper
+{
+  scale: 0.4;
+}
+.reachYourLearning
+{
+  top: 43rem;
+  left: 13rem;
+  /* width: 54rem; */
+  font-size: 23px;
+  width: 7rem;
+  letter-spacing: 1.8px;
+  /* height: 37px; */
+  line-height: 32px;
+}
+.createAPersonalized
+{
+  
+}
   /* .skittiWebsite {
     position: relative;
     background-color: black;
